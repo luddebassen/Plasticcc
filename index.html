@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Homepage</title>
 </head>
 <body>
+<div class="navbar" id="meny">
+    <a href="index.html" class="active">THE PLASTIC VALUTA PROJECT</a>
+        <a href="process.html">The Process</a>
+        <a href="recycling.html">Recycling</a>
+    <a href="javascript:void(0);" class="ikon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("meny");
+        if (x.classname === "navbar") {
+            x.classname + " hamburger";
+        }
+        else {
+            x.classname = "navbar";
+        }
+    }
+</script>
 
 </body>
 </html>
