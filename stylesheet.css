@@ -88,12 +88,14 @@ body {
     content: "";
     clear: both;
     width: 90%;
-    margin: 5% 5% 5% 5%;
+    margin: 4% 5% 5% 5%;
 }
 
 .indexheader {
+    margin-top: 1vh;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 100%;
 }
 
 .main-header {
