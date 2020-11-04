@@ -78,7 +78,7 @@ body {
     }
 }
 
-.recyclingborder {
+.border {
     border: 2px solid black;
     display: table;
     content: "";
@@ -97,13 +97,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+.logo {
     float: right;
     padding: 50px;
     width: 20%;
     height: auto;
     margin-right: 17vh;
     margin-top: -7vh;
+}
+
+@media screen and (max-width: 850px){
+    .logo {
+        float: bottom;
+    }
 }
 
 .footer {
