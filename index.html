@@ -8,28 +8,31 @@
     <title>Homepage</title>
 </head>
 <body>
-<div class="navbar" id="meny">
+<div class="navbar" id="myLinks">
     <a href="index.html" class="active">THE PLASTIC VALUTA PROJECT</a>
+    <div id="meny">
         <a href="process.html">The Process</a>
         <a href="recycling.html">Recycling</a>
-    <a href="javascript:void(0);" class="ikon" onclick="myFunction()">
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
     </a>
 </div>
 
 
 
-<script>
+
+    <script>
     function myFunction() {
-        var x = document.getElementById("meny");
-        if (x.classname === "navbar") {
-            x.classname + " hamburger";
-        }
-        else {
-            x.classname = "navbar";
+        var x = document.getElementById("myLinks");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
         }
     }
 </script>
+
 
 </body>
 </html>
