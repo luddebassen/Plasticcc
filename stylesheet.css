@@ -6,7 +6,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(129, 114, 89);
+    background-color: rgb(129, 107, 94);
     width:100%;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .active {
-    background-color: seagreen;
+    background-color: rgb(48, 125, 95);
 }
 
 .navbar .icon {
@@ -57,6 +57,19 @@ body {
         display: block;
         text-align: left;
     }
+<<<<<<< HEAD
+=======
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+>>>>>>> e2b46b62f7ad5c6b5fe0f186800dafe5ced0a6c9
 }
 
 
