@@ -157,8 +157,9 @@ body {
 
 
 .boks img {
-    height: auto;
+    height: 144px;
     width: 100%;
+    object-fit: cover;
 }
 
 
