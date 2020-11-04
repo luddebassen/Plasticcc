@@ -123,13 +123,34 @@ body {
     width: 20%;
     height: auto;
     margin-right: 17vh;
-    margin-top: -28vh;
+    margin-top: -30vh;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1610px){
     .logo {
-        float: bottom;
-        padding-top: 80px;
+        bottom: 0;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1525px){
+    .logo {
+        bottom: 0;
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1480px){
+    .logo {
+        bottom: 0;
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .logo {
+        bottom: 0;
+        padding-top: 250px;
     }
 }
 
@@ -178,4 +199,10 @@ body {
     background-color: rgb(48, 125, 95);
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+    .border {
+        margin-bottom: 15%;
+    }
 }
