@@ -156,5 +156,9 @@ body {
 }
 
 
+.boks img {
+    height: auto;
+    width: 100%;
+}
 
 
