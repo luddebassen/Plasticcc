@@ -100,6 +100,13 @@ body {
 .recyclingtekst {
     margin: 5vh;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 120%;
+}
+
+.recyclingliste {
+    line-height: 120%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -114,6 +121,7 @@ body {
 @media screen and (max-width: 850px){
     .logo {
         float: bottom;
+        padding-top: 80px;
     }
 }
 
