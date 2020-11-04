@@ -10,16 +10,16 @@
 <body>
 
 <div class="nav" id="navbar">
-    <a href="index.html" class="active">THE PLASTIC VALUTA PROJECT</a>
+    <a href="index.html">THE PLASTIC VALUTA PROJECT</a>
     <a href="process.html">THE PROCESS</a>
-    <a href="recycling.html">RECYCLING</a>
+    <a href="recycling.html" class="active">RECYCLING</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>
 </div>
 
 <div>
-    <h1 class="h1"> Why recycling is the solution to a lot of our problems </h1>
+    <h1 class="main-header"> Why recycling is the solution to a lot of our problems </h1>
 </div>
 
 
@@ -32,11 +32,11 @@
 
 <script>
     function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.className === "navbar") {
-            x.className += " responsive";
+        var x = document.getElementById("navbar");
+        if (x.className === "nav") {
+            x.className += " hamburger";
         } else {
-            x.className = "navbar";
+            x.className = "nav";
         }
     }
 </script>
