@@ -78,14 +78,25 @@ body {
     }
 }
 
-.recyclingboks {
+.recyclingborder {
     border: 2px solid black;
     margin: 3vh;
+    display: table;
 }
 
 .main-header {
     margin: 5vh;
+    float: left;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    float: right;
+    padding: 50px;
+    margin-top: 120px;
+    width: 20%;
+    height: auto;
+    margin-right: 17vh;
 }
 
 .footer {
