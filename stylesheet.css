@@ -126,31 +126,38 @@ body {
     margin-top: -30vh;
 }
 
-@media screen and (max-width: 1610px){
+@media screen and (max-width: 1715px){
     .logo {
         bottom: 0;
         padding-top: 100px;
     }
 }
 
-@media screen and (max-width: 1525px){
+@media screen and (max-width: 1615px){
     .logo {
         bottom: 0;
         padding-top: 150px;
     }
 }
 
-@media screen and (max-width: 1480px){
+@media screen and (max-width: 1555px){
     .logo {
         bottom: 0;
         padding-top: 200px;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1515px){
     .logo {
         bottom: 0;
         padding-top: 240px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .logo {
+        bottom: 0;
+        padding-top: 260px;
     }
 }
 
