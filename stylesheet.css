@@ -80,23 +80,30 @@ body {
 
 .recyclingborder {
     border: 2px solid black;
-    margin: 3vh;
     display: table;
+    content: "";
+    clear: both;
+    width: 86%;
+    margin: 5% 7% 10% 7%;
 }
 
 .main-header {
     margin: 5vh;
-    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recyclingtekst {
+    margin: 5vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     float: right;
     padding: 50px;
-    margin-top: 120px;
     width: 20%;
     height: auto;
     margin-right: 17vh;
+    margin-top: -7vh;
 }
 
 .footer {
