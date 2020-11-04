@@ -8,14 +8,13 @@
     <title>Homepage</title>
 </head>
 <body>
-<div class="navbar" id="myLinks">
+
+<div class="nav" id="navbar">
     <a href="index.html" class="active">THE PLASTIC VALUTA PROJECT</a>
-    <div id="meny">
-        <a href="process.html">The Process</a>
-        <a href="recycling.html">Recycling</a>
-    </div>
+    <a href="process.html">THE PROCESS</a>
+    <a href="recycling.html">RECYCLING</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+        <i class="fa fa-bars"></i>
     </a>
 </div>
 
@@ -29,11 +28,11 @@
 
 <script>
     function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.className === "navbar") {
-            x.className += " responsive";
+        var x = document.getElementById("navbar");
+        if (x.className === "nav") {
+            x.className += " hamburger";
         } else {
-            x.className = "navbar";
+            x.className = "nav";
         }
     }
 </script>

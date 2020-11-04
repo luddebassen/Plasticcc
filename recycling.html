@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Recycling</title>
-
 </head>
 <body>
+<div class="nav" id="navbar">
+    <a href="index.html">THE PLASTIC VALUTA PROJECT</a>
+    <a href="process.html">THE PROCESS</a>
+    <a href="recycling.html" class="active">RECYCLING</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 
+
+<div class = "footer">
+    <p> Copyright &#169; 2020. All Rights Reserved </p>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "nav") {
+            x.className += " hamburger";
+        } else {
+            x.className = "nav";
+        }
+    }
+</script>
 </body>
 </html>

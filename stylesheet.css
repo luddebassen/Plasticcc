@@ -4,25 +4,25 @@ body {
 }
 
 
-.navbar {
+.nav {
     overflow: hidden;
     background-color: rgb(129, 107, 94);
-    width:100%;
+
 }
 
-.navbar a {
+.nav a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     float: left;
     text-align: center;
-    padding: 40px 47.5px 40px 40px;
+    padding: 42px 42px 42px 42px;
     color:white;
     text-transform: uppercase;
 
 }
 
-.navbar a:hover {
+.nav a:hover {
     background-color: #ddd;
     color:black;
 }
@@ -31,33 +31,47 @@ body {
     background-color: rgb(48, 125, 95);
 }
 
-.navbar .icon {
+.nav .icon {
     display: none;
 }
 
-@Media screen and (max-width: 900px){
-    .navbar #meny{
+@Media screen and (max-width: 850px) {
+    .nav a:not(:first-child){
         display: none;
     }
-
-    .navbar a.icon {
-        display: block;
+    .nav a.icon {
         float: right;
+        display: block;
     }
-    .navbar.responsive {
+    .nav.hamburger {
         position: relative;
     }
-    .navbar.responsive .icon {
+    .nav.hamburger .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    .navbar.responsive a{
+    .nav.hamburger a {
         float: none;
         display: block;
         text-align: left;
     }
+}
 
+@Media screen and (max-width: 600px){
+    .nav a {
+        font-size: 15px;
+        padding: 25px
+    }
+}
+
+@Media screen and (max-width: 350px){
+
+    .nav a{
+        font-size: 13px;
+        padding: 25px 10px 25px 10px;
+
+    }
 }
 
 .footer {
