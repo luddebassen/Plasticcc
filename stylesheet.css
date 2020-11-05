@@ -222,3 +222,31 @@ h3 {
     line-height: 140%;
 }
 
+.kolonne {
+    width: 70%;
+    display: block;
+}
+
+.kolonne2 {
+    width: 25%;
+    float: right;
+    margin-top: -25vh;
+    border-left: 1px solid black;
+    padding: 10px;
+    display: block;
+}
+
+@Media screen and (max-width: 1200px){
+    .kolonne {
+        width: 100%;
+    }
+    .kolonne2 {
+        float: left;
+        margin-top:5vh;
+        margin-left: 5vh;
+        border-top: 1px solid black;
+        border-left: none;
+        width: 70%;
+
+    }
+}
